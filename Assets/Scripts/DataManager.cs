@@ -14,7 +14,7 @@ public class DataManager : MonoBehaviour
     private float logInterval = 1; //En segundos
     private float logSaveInterval = 5;
     private Positions playerPos;
-    private Positions enemyPos;
+    private Positions enemyPos; 
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +41,7 @@ public class DataManager : MonoBehaviour
         if(currentTime > prevTime + logInterval) {
             prevTime += logInterval;
             CharacterPosition cp = new CharacterPosition(player.name, currentTime, player.transform.position);
+            DBManager.Instance.SavePosition(cp);
             playerPos.positions.Add(cp);
             foreach (GameObject enemy in enemies) {
                 CharacterPosition en = new CharacterPosition(enemy.name, currentTime, enemy.transform.position);

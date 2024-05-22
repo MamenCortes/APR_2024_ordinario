@@ -1,50 +1,140 @@
 <?xml version="1.0"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <positions>
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
-    <CharacterPosition />
+    <CharacterPosition>
+      <name>EnemyFollow</name>
+      <timestamp>2.65718627</timestamp>
+      <position>
+        <x>4.556878</x>
+        <y>0.40073207</y>
+        <z>-10.2394094</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow2</name>
+      <timestamp>2.65718627</timestamp>
+      <position>
+        <x>-12.08713</x>
+        <y>0.538421869</y>
+        <z>-9.179022</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyPatrol</name>
+      <timestamp>2.65718627</timestamp>
+      <position>
+        <x>7.92083359</x>
+        <y>0.500732064</y>
+        <z>0.440369338</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow</name>
+      <timestamp>3.657213</timestamp>
+      <position>
+        <x>3.8650167</x>
+        <y>0.40073207</y>
+        <z>-7.425459</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow2</name>
+      <timestamp>3.657213</timestamp>
+      <position>
+        <x>-10.9893007</x>
+        <y>0.534065366</y>
+        <z>-6.47627258</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyPatrol</name>
+      <timestamp>3.657213</timestamp>
+      <position>
+        <x>9.21194649</x>
+        <y>0.500732064</y>
+        <z>3.693718</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow</name>
+      <timestamp>4.65737247</timestamp>
+      <position>
+        <x>3.47848535</x>
+        <y>0.40073207</y>
+        <z>-5.0247407</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow2</name>
+      <timestamp>4.65737247</timestamp>
+      <position>
+        <x>-8.604066</x>
+        <y>0.534065366</y>
+        <z>-5.06953955</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyPatrol</name>
+      <timestamp>4.65737247</timestamp>
+      <position>
+        <x>10.4978914</x>
+        <y>0.500732064</y>
+        <z>6.93973351</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow</name>
+      <timestamp>5.65762329</timestamp>
+      <position>
+        <x>2.41711879</x>
+        <y>0.40073207</y>
+        <z>-4.23683929</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow2</name>
+      <timestamp>5.65762329</timestamp>
+      <position>
+        <x>-5.63841</x>
+        <y>0.534065366</y>
+        <z>-4.63588572</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyPatrol</name>
+      <timestamp>5.65762329</timestamp>
+      <position>
+        <x>12.5274391</x>
+        <y>0.500732064</y>
+        <z>9.27515</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow</name>
+      <timestamp>6.65740967</timestamp>
+      <position>
+        <x>2.352689</x>
+        <y>0.40073207</y>
+        <z>-1.42572379</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyFollow2</name>
+      <timestamp>6.65740967</timestamp>
+      <position>
+        <x>-2.87424016</x>
+        <y>0.5583378</y>
+        <z>-3.558021</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>EnemyPatrol</name>
+      <timestamp>6.65740967</timestamp>
+      <position>
+        <x>10.9146891</x>
+        <y>0.500732064</y>
+        <z>7.572306</z>
+      </position>
+    </CharacterPosition>
   </positions>
 </Positions>

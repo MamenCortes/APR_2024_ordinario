@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1036,6 +1036,7 @@ GameObject:
   - component: {fileID: 427418778}
   - component: {fileID: 427418780}
   - component: {fileID: 427418779}
+  - component: {fileID: 427418781}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1087,6 +1088,18 @@ MonoBehaviour:
   - {fileID: 1454138611}
   - {fileID: 2103911874}
   - {fileID: 1696432990}
+--- !u!114 &427418781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427418777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63639fe18bd2eef4284e1ffea462cda7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427439448
 GameObject:
   m_ObjectHideFlags: 0
@@ -4696,6 +4709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1484486285}
+  - component: {fileID: 1484486286}
   m_Layer: 0
   m_Name: Hueco
   m_TagString: Untagged
@@ -4718,6 +4732,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1484486286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484486284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_StartPoint: {x: 0, y: -0.34613806, z: -1.0915585}
+  m_EndPoint: {x: 0, y: -0.31838453, z: 1.0280602}
+  m_Width: 0
+  m_CostModifier: -1
+  m_Bidirectional: 1
+  m_AutoUpdatePosition: 0
+  m_Area: 0
 --- !u!1 &1487339805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,7 +5311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
-  m_Area: 0
+  m_Area: 3
   m_OverrideGenerateLinks: 0
   m_GenerateLinks: 0
   m_IgnoreFromBuild: 0
@@ -5548,7 +5582,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.11666667
   m_MinRegionArea: 5
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 5260a921b5b76a74597803e34d0e575e, type: 2}
   m_BuildHeightMesh: 0
 --- !u!114 &1694492694
 MonoBehaviour:
@@ -5579,7 +5613,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.14999999
   m_MinRegionArea: 5
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 5a2d82939ed9c5c4fb3c99a0093e5a67, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1696432990
 GameObject:
@@ -6642,6 +6676,7 @@ GameObject:
   - component: {fileID: 2089160772}
   - component: {fileID: 2089160771}
   - component: {fileID: 2089160770}
+  - component: {fileID: 2089160774}
   m_Layer: 0
   m_Name: TeleportA1
   m_TagString: Untagged
@@ -6735,6 +6770,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!191 &2089160774
+OffMeshLink:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089160769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_AreaIndex: 0
+  m_AgentTypeID: 0
+  m_Start: {fileID: 2089160773}
+  m_End: {fileID: 1316579934}
+  m_CostOverride: -1
+  m_BiDirectional: 1
+  m_Activated: 1
+  m_AutoUpdatePositions: 0
 --- !u!1 &2103911874
 GameObject:
   m_ObjectHideFlags: 0

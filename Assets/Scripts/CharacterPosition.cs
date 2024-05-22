@@ -5,9 +5,9 @@ using UnityEngine;
 [System.Serializable]
 public class CharacterPosition
 {
-    private string name;
-    private float timestamp;
-    private Vector3 position;
+    public string name;
+    public float timestamp;
+    public Vector3 position;
 
     public CharacterPosition(string name, float timestamp, Vector3 position)
     {
